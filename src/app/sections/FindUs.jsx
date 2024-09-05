@@ -19,7 +19,7 @@ const FindUs = () => {
             <Button text='Visit Us' action={null}/>
           </div>
 
-          <div>
+          <div className='py-8'>
             < Maps />
           </div>
         </div>

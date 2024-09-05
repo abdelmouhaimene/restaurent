@@ -1,10 +1,9 @@
 "use client";
-import { useTranslations } from 'next-intl'
-import { useState,useContext } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { navLinks } from '@/data';
-
+import LangueDropdown from './LangueDropdown';
 const Navbar = () => {
 
 const [list, setList] = useState(false);
@@ -18,13 +17,13 @@ const setLinks = () => (
           {item.isLink
               ? <Link
                   href={item.href}
-                  className={`font-alt no-underline leading-normal text-lg ${selected === item.href ? 'text-slate-900 font-bold' : 'text-slate-gray'} `}
+                  className={`font-base no-underline leading-normal text-xl ${selected === item.href ? 'text-slate-900 font-bold' : 'text-slate-gray'} `}
               >
                   <p className='hover:text-grey' onClick={() => {setSelected(item.href)}}>{item.label}</p>
               </Link>
               : <a
                   href={item.href}
-                  className='font-alt  no-underline leading-normal text-lg text-slate-gray'
+                  className='font-base  no-underline leading-normal text-xl text-slate-gray'
               >
                   <p className='hover:text-grey'>{item.label}</p>
               </a>
@@ -44,7 +43,7 @@ const setLinks = () => (
       </div>
       <div className='flex justify-end items-center font-alt text-lg'>
         <Link className='mx-3 hover:border-b border-golden ' href='#'>
-          <p>Contact us</p>
+          <LangueDropdown/>
         </Link>
         <div className='w-[1px] h-[30px] bg-golden'/>
         <Link className='mx-3 hover:border-b border-golden' href='#'>

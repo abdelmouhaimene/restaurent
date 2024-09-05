@@ -7,9 +7,14 @@ export const navLinks = [
     { href: "/", label: "Home", isLink: true },
     { href: "/Menu", label: "Menu", isLink: true },
     { href: "#a-propos", label: "About", isLink: false },
+    { href: "#a-propos", label: "Contact Us", isLink: false },
 ];
 
 export const gallery = [
+    {href: '#' , imgUrl: gallery1},
+    {href: '#' , imgUrl: gallery2},
+    {href: '#' , imgUrl: gallery3},
+    {href: '#' , imgUrl: gallery4},
     {href: '#' , imgUrl: gallery1},
     {href: '#' , imgUrl: gallery2},
     {href: '#' , imgUrl: gallery3},
