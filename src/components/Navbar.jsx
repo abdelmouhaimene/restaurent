@@ -42,7 +42,7 @@ const setLinks = () => (
         </ul>
       </div>
       <div className='flex justify-end items-center font-alt text-lg'>
-        <Link className='mx-3 hover:border-b border-golden ' href='#'>
+        <Link className='mx-3  ' href='#'>
           <LangueDropdown/>
         </Link>
         <div className='w-[1px] h-[30px] bg-golden'/>
