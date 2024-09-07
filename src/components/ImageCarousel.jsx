@@ -25,7 +25,7 @@ const ImageCarousel = () => {
     };
     
   return (
-    <div className=' relative border-double border-8 border-golden bg-black '>
+    <div className=' relative  bg-black '>
       <div className='flex flex-row overflow-x-auto no-scrollbar  ' ref={scrollRef}>
         {
           gallery.map((image,index) => 

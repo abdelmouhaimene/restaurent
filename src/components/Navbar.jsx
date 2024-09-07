@@ -6,18 +6,18 @@ import { navLinks } from '@/data';
 import LangueDropdown from './LangueDropdown';
 const Navbar = () => {
 
-const [list, setList] = useState(false);
-const openList = () => {
-    list ? setList(false) : setList(true)
-}
-const { selected, setSelected } = useState('Accuil')
+// const [list, setList] = useState(false);
+// const openList = () => {
+//     list ? setList(false) : setList(true)
+// }
+const  [selected, setSelected] = useState('/')
 const setLinks = () => (
   navLinks.map((item) => (
       <li key={item.label} >
           {item.isLink
               ? <Link
                   href={item.href}
-                  className={`font-base no-underline leading-normal text-xl ${selected === item.href ? 'text-slate-900 font-bold' : 'text-slate-gray'} `}
+                  className={`font-base no-underline leading-normal text-xl ${selected === item.href ? 'text-white font-bold' : 'text-slate-gray'} `}
               >
                   <p className='hover:text-grey' onClick={() => {setSelected(item.href)}}>{item.label}</p>
               </Link>
