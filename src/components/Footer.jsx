@@ -7,14 +7,14 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer >
-      <div className='flex items-center justify-evenly p-8'>
-        <div className='flex flex-1 flex-col justify-center items-center'>
+      <div className='flex items-center justify-evenly md:flex-row flex-col p-8'>
+        <div className='flex flex-1 flex-col justify-center items-center order-3 md:order-1'>
           <h1 className='mb-4 font-base text-4xl'>Contact Us</h1>
           <p className='mb-2'>9 W 53rd St, New York, NY 10019, USA</p>
           <p>+1 212-344-1230</p>
           <p>+1 212-344-1230</p>
         </div>
-        <div className='flex flex-1 flex-col justify-center items-center'>
+        <div className='flex flex-1 flex-col justify-center items-center order-1'>
           <Image className='mb-4' src='/images/logo.png' alt='logo' width={60} height={60}/>
           <p className='text-center mb-2'>"The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others."</p>
           <Image className='mb-2' src='/images/spoon.svg' alt='spoon' width={50} height={50}/>
@@ -30,7 +30,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className='flex flex-1 flex-col justify-center items-center'>
+        <div className='flex flex-1 flex-col justify-center items-center order-2'>
           <h1 className='mb-4 font-base text-4xl'>Working Hours</h1>
           <p >Monday-Friday:</p>
           <p className='mb-2'>08:00 Am - 12:00 Am</p>

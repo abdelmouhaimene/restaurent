@@ -5,7 +5,7 @@ import Button from '@/components/elements/Button'
 const FindUs = () => {
   return (
     <section className=' mt-6 padding '>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center md:flex-row flex-col'>
           <div>
             <h4 className='mb-2 font-base text-2xl '>Contacts</h4>
             <Image src='/images/spoon.svg' alt='spoon' width={50} height={50}/>
@@ -19,7 +19,7 @@ const FindUs = () => {
             <Button text='Visit Us' action={null}/>
           </div>
 
-          <div className='py-8'>
+          <div className='py-8 '>
             < Maps />
           </div>
         </div>

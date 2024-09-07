@@ -6,8 +6,8 @@ import ImageCarousel from '@/components/ImageCarousel'
 const Gallery = () => {
   return (
     <section className=' mt-6 padding bg-light_black'>
-        <div className='flex justify-center items-center '>
-            <div className='flex-1 w-1/2 max-w-1/2' >
+        <div className='flex justify-center items-center md:flex-row flex-col'>
+            <div className='flex-1 md:w-1/2 md:max-w-1/2 ' >
                 <h4 className='mb-2 font-base text-2xl '>Instagram</h4>
                 <Image src='/images/spoon.svg' alt='spoon' width={50} height={50}/>
                 <h1 className='my-6 font-base text-6xl text-golden'>Photo Gallery</h1>
@@ -16,7 +16,7 @@ const Gallery = () => {
                 </p>
                 <Button text='View More' action={null}/>
             </div>
-            <div className=' w-1/2 max-w-1/2'>
+            <div className=' md:w-1/2 md:max-w-1/2 w-3/4 maw-w-3/4 mt-4 md:mt-0'>
                 <ImageCarousel />
             </div>
         </div>
