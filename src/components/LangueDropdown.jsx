@@ -4,7 +4,7 @@ const LangueDropdown = () => {
   return (
 <div className="relative group">
   <button className="bg-golden text-white px-2 py-1 flex items-center gap-x-2">
-    En <Image src="/icons/england.png"
+    En <Image src="/icons/england.png" alt='en'
       height={24}
       width={24}     
     />
@@ -13,7 +13,7 @@ const LangueDropdown = () => {
     <ul className="text-sm py-2 px-1">
       <li>
         <button className="block px-2 py-1 hover:border-b border-golden  flex items-center gap-x-2">
-          En <Image src="/icons/england.png"
+          En <Image src="/icons/england.png" alt='en'
             height={24}
             width={24}     
           />
@@ -21,7 +21,7 @@ const LangueDropdown = () => {
       </li>
       <li>
         <button className="block px-2 py-1 hover:border-b border-golden  flex items-center gap-x-2">
-          Fr <Image src="/icons/france.png"
+          Fr <Image src="/icons/france.png" alt='fr'
             height={24}
             width={24}     
           />

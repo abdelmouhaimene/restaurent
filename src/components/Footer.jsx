@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-1 flex-col justify-center items-center order-1'>
           <Image className='mb-4' src='/images/logo.png' alt='logo' width={60} height={60}/>
-          <p className='text-center mb-2'>"The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others."</p>
+          <p className='text-center mb-2'>&quot;The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others.&quot;</p>
           <Image className='mb-2' src='/images/spoon.svg' alt='spoon' width={50} height={50}/>
           <div className='flex  justify-between items-center'>
             <Link  href='#'  className=' text-crimson  tracking-wide leading-7  px-1 py-1 rounded border-none outline-none cursor-pointer hover:text-golden'>

@@ -11,7 +11,7 @@ const About = () => {
         </div>
         <div className='flex justify-center items-center flex-col md:flex-row md:space-x-20 z-10'>
             <div className='flex flex-col text-right items-end justify-center'>
-                <h1 className='font-base font-bold text-6xl text-golden mb-2'> "About Us" </h1>
+                <h1 className='font-base font-bold text-6xl text-golden mb-2'> About Us </h1>
                 <Image src='/images/spoon.svg' alt='spoon' width={50} height={50}/>
                 <p className='font-alt text-xl text-grey my-4' >Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Quis Pharetra Adipiscing Ultrices Vulputate Posuere Tristique. In Sed Odio Nec Aliquet Eu Proin Mauris Et.</p>
                 <Button text='know more' action={null} />
