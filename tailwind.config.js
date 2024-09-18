@@ -23,6 +23,7 @@ module.exports = {
       },
       backgroundImage: {
         'bg_black': "url('/images/bg.png')",
+        'bg_menu': "url('/images//Menu/header1.jpg')",
       },
     },
   },
