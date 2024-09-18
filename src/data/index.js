@@ -5,6 +5,8 @@ import gallery4 from '../../public/images/gallery04.png';
 import grilldish1 from '../../public/images/Menu/grilldish1.webp';
 import grilldish2 from '../../public/images/Menu/grilldish2.webp';
 import grilldish3 from '../../public/images/Menu/grilldish3.webp';
+import grilldish4 from '../../public/images/Menu/grilldish4.webp';
+import grilldish5 from '../../public/images/Menu/grilldish5.webp';
 import salade1 from '../../public/images/Menu/salade1.webp';
 import sea1 from '../../public/images/Menu/sea1.webp';
 import sea2 from '../../public/images/Menu/sea2.webp';
